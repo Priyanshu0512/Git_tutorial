@@ -29,6 +29,18 @@
 14. `git remote rename <old-name><new-name>` -> This renames the remote connection.
 Note - The name of the remote connection is always used to establish a connection between the two repos.
 
+15. `git pull <remote name> <branch name>` -> Download latest changes from the branch of the mentioned remote
+
+
+### Recommended Practice to do - 
+      
+      - make changes
+      - git add <file>
+      - git commit
+      - git pull
+      - git push
+
+
 ## Different Areas in Git
 
 1. `Working area` -> Files which are not being currently handled by git are in the working area.It means changes done to these files are not managed by git. When on using the `git status` command if there are `untracked files` then these are the files currently in the working area.
