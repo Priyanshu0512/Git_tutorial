@@ -55,3 +55,11 @@ Difference between rm and restore
 
 - Merge conflicts are very common scenario.
   Merge conflicts can occur if multiple people try to make changes to the same file and try to collaborate.
+
+
+  ## Git Advanced(How it works internally)
+ 
+ 1. `tree .git` -> Used this command to visualize the entire .git folder structure.
+
+ 2. `git cat-file -p < entire hash value >` -> Use this command to print the contents of the files added to git with the respective hash value.
+ 
