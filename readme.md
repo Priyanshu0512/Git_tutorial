@@ -19,8 +19,17 @@
 9. `git diff <commit id-1> <commit id-2>` -> Used to see the new changes added between two commits. You can get the commit id's using the `git log` command.
 
 10. `git remote` -> Lists down all the remote connection names.
- 
-## Different Area in Git
+
+11. Remote connection -> It links two git repositories for uploading and downloading changes from each other.
+
+12. `git remote add <name of remote> <link of remote>` -> This commands helps us to add a new link to the remote repo and gives a name to it. Ex- origin
+
+13. `git remote rm <name of remote>` -> Deletes the remote connection.
+
+14. `git remote rename <old-name><new-name>` -> This renames the remote connection.
+Note - The name of the remote connection is always used to establish a connection between the two repos.
+
+## Different Areas in Git
 
 1. `Working area` -> Files which are not being currently handled by git are in the working area.It means changes done to these files are not managed by git. When on using the `git status` command if there are `untracked files` then these are the files currently in the working area.
 
