@@ -52,4 +52,6 @@ Note - The name of the remote connection is always used to establish a connectio
 Difference between rm and restore
  - Ans - git rm is used to move back the entire file to an untracked state whereas git restore is used to move the files from working and staging area.
 
+Merge conflicts are very common scenario.
+
 Merge conflicts can occur if multiple people try to make changes to the same file and try to collaborate.
